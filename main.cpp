@@ -40,6 +40,10 @@ int main() {
     c3.setRed(0);
     c3.setGreen(0);
     c3.setBlue(255);
+    //test getters
+    cout << "Colour 1 RGB: " << c1.getRed() << ", " << c1.getGreen() << ", " << c1.getBlue() << endl;
+    cout << "Colour 2 RGB: " << c2.getRed() << ", " << c2.getGreen() << ", " << c2.getBlue() << endl;
+    cout << "Colour 3 RGB: " << c3.getRed() << ", " << c3.getGreen() << ", " << c3.getBlue() << endl;
     //print objects
     cout << "Colour 1:" << endl;
     c1.print();
